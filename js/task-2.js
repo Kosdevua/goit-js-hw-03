@@ -2,7 +2,6 @@
 
 function makeArray(firstArray, secondArray, maxLength) {
   let thirdArr = firstArray.concat(secondArray);
-  console.log(thirdArr.length);
   if (thirdArr.length > maxLength) {
     return thirdArr.slice(0, maxLength);
   } else {
